@@ -313,7 +313,7 @@
 
 .similar-movies-grid, .movie-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
   }
@@ -325,13 +325,10 @@
   }
   .loading svg{
     animation: load 2s infinite;
-  }
-
-  .loading svg{
     width: 200px;
     height: 200px;
-
   }
+
 
   @keyframes load {
     0% {
