@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Poppins globally */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+
+.dark {
+    background-color: #1f2937; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+  
+  .dark .text-black {
+    color: #ffffff; /* Override black text in dark mode */
+  }
+  
+  .dark .bg-white {
+    background-color: #1f2937; /* Override white background in dark mode */
+  }
