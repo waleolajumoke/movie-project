@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="movie-card">
       <Link to={`/movie/${movie.id}`}>
-        <img src={posterUrl} alt={movie.title} />
+        <img src={posterUrl} alt={movie.title}  />
         {(movie.vote_average) ?
           <span className="movie-rating">{parseFloat(movie.vote_average).toFixed(1)}</span> :''
         

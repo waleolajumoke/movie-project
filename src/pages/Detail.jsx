@@ -50,7 +50,7 @@ const Detail = () => {
         <img
           src={ movie.poster_path? `https://image.tmdb.org/t/p/w500${movie.poster_path}`:'https://www.movienewz.com/wp-content/uploads/2014/07/poster-holder.jpg'}
           alt={movie.title}
-          className="movie-poster"
+         
         />
          {(movie.vote_average) ?
           <span className="movie-rating">{parseFloat(movie.vote_average).toFixed(1)}</span> :''
