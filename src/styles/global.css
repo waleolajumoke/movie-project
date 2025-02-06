@@ -22,8 +22,8 @@
   
   /* Dark Mode Toggle Button */
   .dark-mode-toggle button {
-    /* background-color: #000; */
-    /* color: #fff; */
+    background-color: #000;
+    color: #fff;
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -339,6 +339,9 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 0px;
+    }
+    .container {
+      padding: 0px;
     }
     
   }
