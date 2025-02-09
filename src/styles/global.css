@@ -190,12 +190,11 @@
     margin-top: 20px;
   }
   
-  /* @media (min-width: 768px) {
-    .movie-detail {
-      flex-direction: row;
-      gap: 40px;
-    }
-  } */
+  @media (min-width: 768px) {
+    .movie-poster-container{
+    width: 100%;
+}
+  }
 
       .logo{
         text-align: center;
@@ -240,6 +239,7 @@
 
 .movie-poster-container{
     position: relative;
+    width: 50%;
 }
 .movie-poster-container:hover {
     transform: scale(1.05);
